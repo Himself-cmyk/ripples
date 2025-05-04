@@ -48,4 +48,4 @@ var images = [
 var randomImage = images[Math.floor(Math.random() * images.length)];
 
 // 设置body的背景图片
-document.body.style.backgroundImage = 'url("../../../images/' + randomImage + '")';
+document.body.style.backgroundImage = 'url("../images/' + randomImage + '")';
