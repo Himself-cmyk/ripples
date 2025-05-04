@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Ripple Effect Plus Page</title>
+<!--    <link rel="stylesheet" href="css/style.css">-->
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.ripples.min.js"></script>
+    <style>    * {font-family: microsoft yahei}
+    body, html {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+        height: 100vh;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    body {
+        background-image: url('your-wallpaper.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    ul li {
+        line-height: 2
+    }
+    a {
+        color: #FFFFFF
+        text-decoration: none;
+    }
+    .glass-container {
+        margin: 50px auto;
+        max-width: 800px;
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        color: #000000; /* 文字颜色改为黑色 color: #ffffff;*/
+
+    }
+    </style>
+
+</head>
+<body>
+<span style="font-size:20px;background-color:#999999;color:#FFFFFF;">
+
+<div class="glass-container">
+    <div class="container">
+        <p>这是从 content.txt 中复制过来的正文内容，支持多行文字。</p>
+        <p>你可以继续添加更多段落、图片或链接。<br></p>
+        <p>✅ 增加透明磨砂质感的圆角容器</p>
+        <p>我们可以使用 CSS 的 backdrop-filter 属性来实现磨砂玻璃效果，并结合 border-radius 实现圆角。将主要内容包裹在一个具有样式的容器中。</p>
+<p>✅ 最终效果说明：</p>
+<p>内容区域呈现磨砂玻璃质感 + 圆角边框，视觉层次更清晰。</p>
+<p>如需进一步美化（比如动画、响应式设计等），可继续扩展样式。</p>
+    </div>
+</div>
+</span>
+<script src="js/randomBG.js"></script>
+<script src="js/applyRipples.js"></script>
+</body>
+</html>
